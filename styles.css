@@ -209,7 +209,7 @@ time{
     align-items: center;
     display: flex;
     position: absolute;
-    top: 660px;
+    top: 668px;
     
 }
 
@@ -233,17 +233,45 @@ time{
     height: 100px;
     width: 250px;
     border-radius: 30px;
+    animation:floaters 2500ms alternate-reverse infinite;
 }
 
 .deoderant__img{
     border-radius: 30px;
     width: 300px;
     height: 100px;
+    animation:floaters 2200ms alternate-reverse infinite;
 }
 
 .blanket__img{
     border-radius: 30px;
     width: 250px;
     height: 100px;
-
+    animation:floaters 1800ms alternate-reverse infinite;
 }
+
+.red__bow{
+    margin-top: 50px;
+    width: 930px;
+}
+
+.end__header{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.webmaster{
+    margin-bottom: 5px;
+    color: black;
+    font-size: large;
+}
+
+@keyframes floaters {
+    0% {
+        transform:translateY(20px);
+    }
+    100% {
+        
+        transform: translateY(5px);
+    }
