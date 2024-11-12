@@ -176,7 +176,7 @@ marquee{
 .marq__img-still{
     bottom: -1010px;
     width: 930px;
-    height: 130px;
+    height: 200px;
     border-radius: 10px;
     
 }
@@ -211,7 +211,7 @@ time{
     align-items: center;
     display: flex;
     position: absolute;
-    top: 675px;
+    top: 725px;
     
 }
 
