@@ -35,7 +35,7 @@ section{
 }
 
 marquee{
-    padding: 28px;
+    padding: 5px;
 }
 
 .flyer__banner3{
@@ -90,7 +90,7 @@ marquee{
     width: 280px;
     box-shadow: red 1px 2px 3px 12px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border: red 10px dotted;
     box-shadow: white 0px 0px 25px 2px;
@@ -109,14 +109,13 @@ marquee{
 }
 
 .color2{
-    margin-bottom: 0px;
     background-color:red;
     border: dotted green 10px;
-    padding: 5px;
     border-radius: 50px;
     color:white;
     box-shadow:green 0px 3px 10px 2px;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight:900;
 }
 
 #flyer__responsive{
@@ -140,29 +139,36 @@ marquee{
 .flyer__border{
     margin: 20px;
     background-color: rgba(0, 128, 28, 0.536);
-    padding: 10px 20px;
+    padding: 10px 0px;
     border-radius: 20px;
 }
 
-.flyer__banner4{
-    top: 920px;
-    max-width: 850px;
-    left: 400px;
+.top__banner{
     position: absolute;
-    border-radius:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 20px;
+}
+
+.flyer__banner4{
+    border-radius:20px ;
     height: 140px;
-    width: 380px;
+    width: 385px;
     opacity: .3;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
 .flyer__banner5{
+    align-items: center;
+    justify-content: center;
     opacity: .3;
-    top: 920px;
-    right: 400px;
-    position: absolute;
     border-radius:20px ;
     height: 140px;
-    width: 380px;
+    width: 385px;
+    margin-left: 80px;
 }
 
 .marq__img-still{
@@ -196,13 +202,14 @@ time{
 }
 
 .locations{
-    position: absolute;
-    bottom: -920px;
     margin: 10px;
-    display: flex;
     flex-direction: row;
     color: white;
     justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 660px;
     
 }
 
@@ -210,9 +217,10 @@ time{
     width: 180px;
     border-radius: 10px;
     background-color: green;
-    padding: 2px 2px;
+    padding: 12px 2px;
     border: dotted red 5px;
     margin: 10px;
+    height: 130px;
 }
 
 .location__color{
