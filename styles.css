@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 p{
@@ -85,7 +86,7 @@ marquee{
     }
 
 .tryipleximg__flyer-responsive{
-    max-width: 1200px;
+    max-width: 100%;
     border-radius: 130px;
     width: 280px;
     box-shadow: red 1px 2px 3px 12px;
@@ -106,6 +107,7 @@ marquee{
     color: red;
     box-shadow:red 0px 3px 10px 2px;
     font-size: 70px;
+    width: 100%;
 }
 
 .color2{
@@ -209,7 +211,7 @@ time{
     align-items: center;
     display: flex;
     position: absolute;
-    top: 678px;
+    top: 670px;
     
 }
 
