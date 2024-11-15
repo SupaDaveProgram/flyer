@@ -309,7 +309,7 @@ time{
     margin-left: 12px;
 }
 
-/*@keyframes floaters {
+@keyframes floaters {
     0% {
         transform:translateY(20px);
     }
@@ -317,4 +317,3 @@ time{
         
         transform: translateY(5px);
     }
-        */
