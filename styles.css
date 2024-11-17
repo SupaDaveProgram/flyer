@@ -179,14 +179,14 @@ marquee{
         padding: 12px 1px;
         border: dotted red 5px;
         margin: 10px;
-        height: 100%;
+        height: 130px;
         width: 100%;
     }
     
     .location__color{
         background-color: red;
         color: white;
-        border: dotted white 2px;
+        border: dotted white 5px;
     }
     
     .socks__img{
@@ -254,7 +254,7 @@ marquee{
     
 }
 .object1 {
-    margin-right: 20px;
+    margin-right: 43px;
 }
 
 .object2{
@@ -272,4 +272,11 @@ marquee{
     100% {
         
         transform: translateY(5px);
+    }
+}
+
+    @media (max-width:865.53px){
+        .locations{
+            display: block;
+        }
     }
