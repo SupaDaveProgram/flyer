@@ -278,5 +278,13 @@ marquee{
     @media (max-width:865.53px){
         .locations{
             display: block;
+            align-content: center;
+            text-align: center;
+        }
+    }
+    
+    @media (max-width:492.86px){
+        time{
+            text-align: center;
         }
     }
