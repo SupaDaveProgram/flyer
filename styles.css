@@ -12,13 +12,10 @@ html {
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.383);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.383);
+    justify-content: center;
+    
 }
 
 p{
@@ -33,41 +30,14 @@ p{
 section{
     align-content: center;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 marquee{
     padding: 5px;
 }
 
-.flyer__banner3{
-    top: 410px;
-    max-width: 70px;
-    left: 530px;
-    position: absolute;
-    border-radius:90px ;
-    height: 90px;
-    width: 50px;
-}
-.flyer__banner2{
-    top: 240px;
-    max-width: 850px;
-    right: 590px;
-    position: absolute;
-    border-radius:90px ;
-    height: 170px;
-    width: 170px;
-}
-.flyer__banner1{
-    top: 240px;
-    max-width: 850px;
-    left: 410px;
-    position: absolute;
-    border-radius:90px ;
-    height: 170px;
-    width: 170px;
-}
 .flyer__logo{
-    max-width: 1200px;
     border-radius: 130px;
     width: 800px;
     padding: 2px;
@@ -85,193 +55,172 @@ marquee{
     border-radius: 100px;
     }
 
-.tryipleximg__flyer-responsive{
-    max-width: 100%;
-    border-radius: 130px;
-    width: 80px;
-    box-shadow: red 1px 2px 3px 12px;
-    height: 50px;
-    margin-bottom: 1px;
-    border: red 10px dotted;
-    box-shadow: white 0px 0px 25px 2px;
-    opacity: .8;
-    
-}
-
-.color1{
-    margin-bottom: 4px;
-    background-color:green;
-    border: dotted red 10px;
-    padding: 5px;
-    border-radius: 50px;
-    color: red;
-    box-shadow:red 0px 3px 10px 2px;
-    font-size: 70px;
-    width: 930px;
-}
-
-.color2{
-    background-color:red;
-    border: dotted green 10px;
-    border-radius: 50px;
-    color:white;
-    box-shadow:green 0px 3px 10px 2px;
-    font-size: 30px;
-    font-weight:900;
-}
-
-.color__padding{
-    padding: 5px;
-}
-
-#flyer__responsive{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    width: 950px;
-
-    
-}
-
-.flyer__responsive-header{
-    margin: 5px;
-    padding:5px ;
+    .tryipleximg__flyer-responsive{
+        width: 80px;
+        border-radius: 130px;
+        border: red 10px dotted;
+        box-shadow: white 0px 0px 25px 2px;
+    }
     
     
-}
-
-.flyer__border{
-    margin: 20px;
-    background-color: rgba(0, 128, 28, 0.536);
-    padding: 10px 0px;
-    border-radius: 20px;
-}
-
-.top__banner{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    top: 20px;
-}
-
-.flyer__banner4{
-    border-radius:20px ;
-    height: 140px;
-    width: 385px;
-    opacity: .3;
-    margin-right: 80px;
-    align-items: center;
-    justify-content: center;
-}
-
-.flyer__banner5{
-    align-items: center;
-    justify-content: center;
-    opacity: .3;
-    border-radius:20px ;
-    height: 140px;
-    width: 385px;
-    margin-left: 80px;
-}
-
-.marq__img-still{
-    bottom: -1010px;
-    width: 930px;
-    height: 200px;
-    border-radius: 10px; 
-}
-
-time{
-    margin: 0px;
-    font-size: 25px;
-    color: white;
-    top: 1620px;
-}
-
-.flyer__para{
-    color: white;
-    font-weight: 900;
-    font-size: 20px;
-}
-
-.presented {
-    border: green solid 4px;
-    background-color: red;
-    color: blue;
-    font-size: medium;
-    padding: 1px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.locations{
-
-    flex-direction: row;
-    color: white;
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
+    figure{
+        align-content: center;
+        height: 50px;
+        margin-bottom: 1px;
+        text-align: center;
+        
+    }
     
-    top: 725px;
+    .color1{    
+        background-color:green;
+        border: dotted red 10px;
+        padding: 5px;
+        border-radius: 50px;
+        color: red;
+        box-shadow:red 0px 3px 10px 2px;
+        font-size: 70px;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
     
-}
-
-.location{
-    width: 180px;
-    border-radius: 10px;
-    background-color: green;
-    padding: 12px 1px;
-    border: dotted red 5px;
-    margin: 10px;
-    height: 130px;
-}
-
-.location__color{
-    background-color: red;
-    color: white;
-    border: dotted white 5px;
-}
-
-.socks__img{
-    border: green solid 5px;
-    height: 100px;
-    width: 150px;
-    border-radius: 30px;
-    animation:floaters 2500ms alternate-reverse infinite;
-    box-shadow: black 1px 4px 15px 4px;
-    margin: 10px;
+    .color2{
+        background-color:red;
+        border: dotted green 10px;
+        border-radius: 50px;
+        color:white;
+        box-shadow:green 0px 3px 10px 2px;
+        font-size: 30px;
+        font-weight:900;
+    }
     
-}
+    .color__padding{
+        padding: 5px;
+    }
+    
+    #flyer__responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
-.deoderant__img{
-    margin: 10px;
-    border: green solid 5px;
-    border-radius: 30px;
-    width: 150px;
-    height: 100px;
-    animation:floaters 2200ms alternate-reverse infinite;
-    box-shadow: black 1px 4px 15px 4px;
-}
+    .flyer__responsive-header{
+        margin:80px 0px;
+    }
 
-.blanket__img{
-    margin: 10px;
-    box-shadow: black 1px 4px 15px 4px;
-    border: green solid 5px;
-    border-radius: 30px;
-    width: 150px;
-    height: 100px;
-    animation:floaters 1800ms alternate-reverse infinite;
+    
+    .flyer__border{
+        margin: 20px;
+        background-color: rgba(0, 128, 28, 0.536);
+        padding: 10px 0px;
+        border-radius: 20px;
+        align-content: center;
+    }
+    
+    .marq__img-still{
+        bottom: -1010px;
+        width: 930px;
+        height: 200px;
+        border-radius: 10px; 
+    }
+    
+    time{
+        margin: 0px;
+        font-size: 25px;
+        color: white;
+        top: 1620px;
+    }
+    
+    .flyer__para{
+        color: white;
+        font-weight: 900;
+        font-size: 20px;   
 }
 
 .red__bow{
-    top: 70px;
-    position: absolute;
-    width: 950px;
-    height: 100px;
-}
+    text-align: center;
+    height: 230px;
+    width: 100%;   
+        }
+
+    .presented__wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: blue;
+        text-align: center;
+        padding: 4px;
+        font-size: 10px;
+    }
+    
+    .presented {
+        border-radius: 8px;
+        top: 20px;
+        position: absolute;
+        border: green solid 4px;
+        background-color: red;
+        font-size: 14px;
+        padding: 2px;
+    }
+    
+    .locations{
+        flex-direction: row;
+        color: white;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        top: 725px;
+    }
+    
+    .location{
+        width: 180px;
+        border-radius: 10px;
+        background-color: green;
+        padding: 12px 1px;
+        border: dotted red 5px;
+        margin: 10px;
+        height: 130px;
+    }
+    
+    .location__color{
+        background-color: red;
+        color: white;
+        border: dotted white 5px;
+    }
+    
+    .socks__img{
+        border: green solid 5px;
+        height: 100px;
+        width: 150px;
+        border-radius: 30px;
+        animation:floaters 2500ms alternate-reverse infinite;
+        box-shadow: black 1px 4px 15px 4px;
+        margin: 10px;
+        
+    }
+
+    .deoderant__img{
+        margin: 10px;
+        border: green solid 5px;
+        border-radius: 30px;
+        width: 150px;
+        height: 100px;
+        animation:floaters 2200ms alternate-reverse infinite;
+        box-shadow: black 1px 4px 15px 4px;
+    }
+    
+    .blanket__img{
+        margin: 10px;
+        box-shadow: black 1px 4px 15px 4px;
+        border: green solid 5px;
+        border-radius: 30px;
+        width: 150px;
+        height: 100px;
+        animation:floaters 1800ms alternate-reverse infinite;
+    }
+    
 
 .end__header{
     font-size: 50px;
@@ -291,6 +240,10 @@ time{
     margin-bottom: 5px;
     color: black;
     font-size:12px;
+}
+
+.Objects{
+    margin:15px 0px;
 }
 
 .object__names {
