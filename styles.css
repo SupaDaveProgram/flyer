@@ -171,17 +171,16 @@ marquee{
         justify-content: space-evenly;
         align-items: center;
         display: flex;
-        top: 725px;
     }
     
     .location{
-        width: 180px;
         border-radius: 10px;
         background-color: green;
         padding: 12px 1px;
         border: dotted red 5px;
         margin: 10px;
-        height: 130px;
+        height: 100%;
+        width: 100%;
     }
     
     .location__color{
@@ -255,7 +254,7 @@ marquee{
     
 }
 .object1 {
-    margin-right: 43px;
+    margin-right: 20px;
 }
 
 .object2{
