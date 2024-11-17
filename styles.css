@@ -186,7 +186,7 @@ marquee{
     .location__color{
         background-color: red;
         color: white;
-        border: dotted white 5px;
+        border: dotted white 2px;
     }
     
     .socks__img{
