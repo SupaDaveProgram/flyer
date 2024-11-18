@@ -77,11 +77,11 @@ marquee{
         padding: 5px;
         border-radius: 50px;
         color: red;
-        box-shadow:red 0px 3px 10px 2px;
+        box-shadow:black 0px 13px 10px 2px;
         font-size: 70px;
-        width: 100%;
         text-align: center;
-        margin-top: 10px;
+        margin: 13px;
+        
     }
     
     .color2{
@@ -89,9 +89,10 @@ marquee{
         border: dotted green 10px;
         border-radius: 50px;
         color:white;
-        box-shadow:green 0px 3px 10px 2px;
+        box-shadow:black 0px 13px 10px 2px;
         font-size: 30px;
         font-weight:900;
+        margin: 8px;
     }
     
     .color__padding{
@@ -107,7 +108,7 @@ marquee{
     }
 
     .flyer__responsive-header{
-        margin:80px 0px;
+        margin:80px;
     }
 
     
@@ -227,6 +228,7 @@ marquee{
     font-weight: 900;
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 .end__credits{
