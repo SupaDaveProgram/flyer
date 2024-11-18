@@ -254,15 +254,15 @@ marquee{
     
 }
 .object1 {
-    margin-right: 43px;
+    margin-right: 0px;
 }
 
 .object2{
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 .object3{
-    margin-left: 12px;
+    margin-left: 0px;
 }
 
 @keyframes floaters {
@@ -280,6 +280,21 @@ marquee{
             display: block;
             align-content: center;
             text-align: center;
+        }
+    }
+
+    @media (max-width: 588.82px){
+        .Objects{
+            display: flex;
+            flex-direction: row;
+        }
+        .object__names{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0px 10px ;
+            padding: 20px;
         }
     }
     
