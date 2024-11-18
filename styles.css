@@ -310,4 +310,13 @@ marquee{
         time{
             text-align: center;
         }
+        .color2{
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 328.82px){
+        .color1{
+            font-size: small;
+        }
     }
