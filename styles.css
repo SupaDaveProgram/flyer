@@ -165,7 +165,11 @@ marquee{
         font-size: 12px;
         padding: 2px;
     }
-    
+    .triplex__link{
+        text-decoration: none;
+        display: flex;
+        color: white;
+    }
     .locations{
         flex-direction: row;
         color: white;
