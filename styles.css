@@ -81,7 +81,6 @@ marquee{
         font-size: 70px;
         text-align: center;
         margin: 13px;
-        
     }
     
     .color2{
@@ -105,17 +104,30 @@ marquee{
         align-items: center;
         justify-content: center;
         width: 100%;
+        border: rgba(255, 255, 255, 0.832) 5px solid;
+        padding: 15px;
+        border-radius: 10px;
+       
+    }
+
+    h3{
+        text-align: center;
     }
 
     .flyer__responsive-header{
         margin:80px;
+    
     }
 
+    #top__page{
+        border: rgba(255, 0, 0, 0.68) solid 5px;
+        border-radius: 10px;
+    }
     
     .flyer__border{
-        margin: 20px;
+        
         background-color: rgba(0, 128, 28, 0.536);
-        padding: 10px 0px;
+        padding: 10px 10px;
         border-radius: 20px;
         align-content: center;
     }
