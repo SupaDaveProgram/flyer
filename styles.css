@@ -107,6 +107,7 @@ marquee{
         border: rgba(255, 255, 255, 0.832) 5px solid;
         padding: 15px;
         border-radius: 10px;
+        box-shadow: 1px 2px 10px white;
        
     }
 
@@ -122,6 +123,7 @@ marquee{
     #top__page{
         border: rgba(255, 0, 0, 0.68) solid 5px;
         border-radius: 10px;
+        box-shadow: 1px 2px 10px red;
     }
     
     .flyer__border{
@@ -270,8 +272,6 @@ marquee{
     justify-content: space-evenly;
     font-size: 20px;
     color: white;
-    
-    
 }
 .object1 {
     margin-right: 0px;
