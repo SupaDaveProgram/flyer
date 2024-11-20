@@ -185,9 +185,10 @@ marquee{
     
     .presented {
         border-radius: 8px;
+        box-shadow:black 0px 4px 6px 2px;
         top: 45px;
         position: absolute;
-        border: green solid 4px;
+        border: green solid 2.5px;
         background-color: red;
         font-size: 12px;
         padding: 2px;
