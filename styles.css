@@ -59,7 +59,8 @@ marquee{
         width: 80px;
         border-radius: 130px;
         border: red 10px dotted;
-        box-shadow: white 0px 0px 25px 2px;
+        box-shadow: white 0px 0px 25px 12px;
+        opacity: .7;
     }
     
     
@@ -74,6 +75,7 @@ marquee{
     .color1{    
         background-color:green;
         border: dotted red 10px;
+        border-bottom: none;
         padding: 5px;
         border-radius: 50px;
         color: red;
@@ -104,10 +106,10 @@ marquee{
         align-items: center;
         justify-content: center;
         width: 100%;
-        border: rgba(255, 255, 255, 0.832) 5px solid;
+        border: rgba(255, 255, 255, 0.832) 5px dotted;
         padding: 15px;
         border-radius: 10px;
-        box-shadow: 1px 2px 13px white;
+        box-shadow: 0px 2px 13px 11px white;
        
     }
 
@@ -120,9 +122,10 @@ marquee{
     }
 
     #top__page{
-        border: rgba(255, 0, 0, 0.68) solid 5px;
+        border: rgba(255, 0, 0, 0.68) dotted 5px;
+        border-bottom: none;
         border-radius: 10px;
-        box-shadow: 1px 2px 13px red;
+        box-shadow: 0px 0px 13px 11px red;
     }
     
     .flyer__border{
