@@ -75,7 +75,6 @@ marquee{
     .color1{    
         background-color:green;
         border: dotted red 10px;
-        border-bottom: none;
         padding: 5px;
         border-radius: 50px;
         color: red;
@@ -95,9 +94,21 @@ marquee{
         font-weight:900;
         margin: 8px;
     }
+     
+    .color3{
+        background-color:green;
+        border: dotted red 10px;
+        border-radius: 50px;
+        color:white;
+        box-shadow:black 0px 13px 10px 2px;
+        font-size: 60px;
+        font-weight:900;
+        margin: 8px;
+    }
     
     .color__padding{
         padding: 5px;
+        
     }
     
     #flyer__responsive{
@@ -324,14 +335,14 @@ marquee{
         time{
             text-align: center;
         }
-        .color2{
+        .color3{
             font-size: 25px;
         }
         h3{
             text-align: center;
         }
        .objects__marquee{
-            display: none;
+            display: ;
         }
     }
 
